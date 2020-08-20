@@ -1,0 +1,94 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/cs.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.navbar-brand {
+    font-family: 'Yatra One', cursive;
+}
+
+.nav-item {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.center {
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+h1,p {
+    color: white;
+}
+
+.cl {
+    color: white;
+}
+.cl1 {
+    color: #38b8ff;
+}
+
+.ml-right {
+    margin-left: 500px;
+}
+
+
+#login {
+    min-width: 250px;
+    margin-top: 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 14px 14px 0;
+}
+
+#login .social-buttons {
+    margin: 12px 0;
+}
+
+.btn-fb {
+    color: #fff;
+    background-color: #3b599d;
+}
+
+.btn-tw {
+    color: #fff;
+    background-color: #38b8ff;
+    margin-left: 10px;
+}
+/* #75abc2 */
+.btn-fb:hover {
+    color: #fff;
+    background-color: #496ebc;
+}
+
+.btn-tw:hover {
+    color: #fff;
+    background-color: #2692ce;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        background-color: #449d44;
+        opacity: 0.7;
+        font-size: 35px;
+    }
+    h2 {
+        background-color: #449d44;
+        opacity: 0.8;
+    }
+    .cl1 {
+        color: white;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        background-color: skyblue;
+        opacity: 0.8;
+    }
+}
